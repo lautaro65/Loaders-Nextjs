@@ -1,4 +1,4 @@
-import DecodeLoader from "./components/DecodeLoader/page"
+import DecodeLoader from "./components/DecodeLoader/DecodeLoader"
 export default function Home() {
   return (
     <main className="min-h-screen w-full">
