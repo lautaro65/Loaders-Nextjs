@@ -56,11 +56,11 @@ const DecodeLoader: React.FC<DecodeLoaderProps> = ({
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-green-400 font-mono">
-      <div className="text-4xl mb-8">
+      <div className="text-2xl mb-8">
         {decodedMessage}
       </div>
       <motion.div
-        className="w-64 h-1 bg-green-400 rounded"
+        className="w-60 h-1 bg-green-400 rounded"
         initial={{ scaleX: 0 }}
         animate={{ scaleX: 1 }}
         transition={{ duration: duration / 1000, ease: "linear" }}
